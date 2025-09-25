@@ -1,6 +1,6 @@
 
 # 🍿 Code-Snax
-**Snack-sized coding notes, auto-synced from Notion.**
+**Snack-sized coding notes, and pattern based learning path happy learning and keep motivated 
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github&labelColor=ffffff20&color=00f5d4" />
