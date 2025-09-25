@@ -1,7 +1,6 @@
 # 🍿 Code-Snax
 
 **Snack-sized coding notes, auto-synced from Notion.**  
-Turn long LeetCode write-ups into short, fun, and blog-style cards — powered by [Cohere](https://cohere.com).  
 
 ![GitHub stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
