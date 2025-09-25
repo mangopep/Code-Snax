@@ -1,34 +1,38 @@
 # 🍿 Code-Snax
 
-> Snack-sized coding notes with AI summaries + Notion links.  
-> Because algorithms shouldn’t feel like a 500-page textbook. 🌯
+**Snack-sized coding notes, auto-synced from Notion with AI summaries.**  
+Turn long LeetCode writeups into bite-sized blog cards, powered by [Cohere](https://cohere.com).  
+
+![GitHub stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
 ## 📖 Notes Index (auto-updated)
 
 <!-- SNAX-START -->
-*(Run the action or push with links to generate this section.)*
+*(Notes will appear here after first Action run)*
 <!-- SNAX-END -->
 
 ---
 
-## 🚀 What is this?
-- I write full problem notes in **Notion**.
-- This repo **auto-updates** with a short, friendly **AI summary** + the **Notion link**.
-- Vibes: simple, human, GenZ-friendly.
+## 🚀 Features
+- 🔗 **Notion integration without API** – just paste public share links  
+- 🤖 **AI-powered summaries** – short, simple, non-nerd explanations  
+- 📝 **Auto-updated README** – via GitHub Actions (daily + on push)  
+- 🎨 **Blog-style layout** – more fun than walls of text  
 
-## 🛠 How it works (no Notion API)
-1. I paste public **Notion share links** into `notion_links.txt` (one per line).
-2. A GitHub Action runs a Python script that:
-   - Scrapes the public page (title + text)
-   - Summarizes with **Cohere**
-   - Updates this README between the markers
+---
 
-## 🧩 Add a new note
-- Put the share URL in `notion_links.txt`
-- Commit & push
-- The Action updates this page automatically
+## 🛠 How It Works
+1. Add your public Notion links to [`notion_links.txt`](./notion_links.txt)  
+2. Push to GitHub  
+3. The Action will:  
+   - Fetch the page  
+   - Summarize with Cohere  
+   - Update this README with a blog-style card  
 
-## ⭐ Support
-If you like this idea, drop a star. Let’s make problem-solving snack-sized.
+---
+
+## 📂 Project Structure
