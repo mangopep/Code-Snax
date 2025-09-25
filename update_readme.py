@@ -28,6 +28,7 @@ SUMMARY_INSTRUCTIONS = (
     "Snack-take: <analogy line>  (omit this line if none)"
 )
 
+
 def read_links(path: str) -> List[str]:
     if not os.path.exists(path):
         return []
@@ -40,12 +41,14 @@ def read_links(path: str) -> List[str]:
             seen.add(u)
     return uniq
 
+
 def fetch_notion_public(url: str) -> Tuple[str, str]:
     headers = {"User-Agent": USER_AGENT}
     resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
+    # Title
     title = None
     og_title = soup.find("meta", property="og:title")
     if og_title and og_title.get("content"):
@@ -54,6 +57,7 @@ def fetch_notion_public(url: str) -> Tuple[str, str]:
         title = soup.title.get_text(strip=True)
     title = (title or "Untitled").strip()
 
+    # Content
     blocks = []
     for tag in soup.find_all(["h1", "h2", "h3", "p", "li", "blockquote"]):
         txt = tag.get_text(" ", strip=True)
@@ -66,8 +70,10 @@ def fetch_notion_public(url: str) -> Tuple[str, str]:
 
     return title, text
 
+
 def content_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
 
 def load_cache(path: str) -> Dict[str, dict]:
     if not os.path.exists(path):
@@ -78,11 +84,13 @@ def load_cache(path: str) -> Dict[str, dict]:
     except Exception:
         return {}
 
+
 def save_cache(path: str, data: Dict[str, dict]) -> None:
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, path)
+
 
 def cohere_summarize(text: str) -> str:
     if not COHERE_API_KEY:
@@ -90,17 +98,22 @@ def cohere_summarize(text: str) -> str:
     try:
         import cohere
         co = cohere.Client(COHERE_API_KEY)
+
         prompt = f"{SUMMARY_INSTRUCTIONS}\n\n---\n{text[:MAX_CHARS_FOR_AI]}"
-        resp = co.generate(
-            model="command",
-            prompt=prompt,
-            max_tokens=180,
-            temperature=0.4
+
+        # ✅ Use new Chat API
+        resp = co.chat(
+            model="command-r-plus",
+            message=prompt,
+            temperature=0.4,
         )
-        out = resp.generations[0].text.strip()
+
+        out = resp.text.strip()
         return out if out else "AI TL;DR: (empty)\nSnack-take: (—)"
+
     except Exception as e:
-        return f"AI TL;DR: (Cohere error: {e})\nSnack-take: (—)"
+        return f"AI TL;DR: (Cohere chat error: {e})\nSnack-take: (—)"
+
 
 def render_card(title: str, url: str, ai_summary: str) -> str:
     if "AI TL;DR:" not in ai_summary:
@@ -121,6 +134,7 @@ def render_card(title: str, url: str, ai_summary: str) -> str:
         f"- 🍪 {snack}\n\n"
     )
 
+
 def update_readme_block(cards_md: str) -> None:
     with open(README_PATH, "r", encoding="utf-8") as f:
         readme = f.read()
@@ -136,6 +150,7 @@ def update_readme_block(cards_md: str) -> None:
         readme = pattern.sub(replacement, readme)
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(readme)
+
 
 def main():
     links = read_links(LINKS_PATH)
@@ -163,7 +178,12 @@ def main():
                     print("  - Using cached summary.")
                 else:
                     ai_summary = cohere_summarize(content)
-                    cache[url] = {"hash": h, "title": title, "summary": ai_summary, "ts": int(time.time())}
+                    cache[url] = {
+                        "hash": h,
+                        "title": title,
+                        "summary": ai_summary,
+                        "ts": int(time.time())
+                    }
                     print("  - Generated new summary.")
         except Exception as e:
             print(f"  - Fetch error: {e}")
@@ -176,6 +196,7 @@ def main():
     cards_md = "".join(cards).strip() if cards else "*No notes yet.*"
     update_readme_block(cards_md)
     print("\n✅ Done. README updated.")
+
 
 if __name__ == "__main__":
     main()
