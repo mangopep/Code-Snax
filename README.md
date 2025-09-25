@@ -13,9 +13,7 @@ Turn long LeetCode write-ups into short, fun, and blog-style cards — powered b
 
 <!-- SNAX-START -->
 ### 🔗 Leetcode Solved Two pointers Notes | Notion
-- Notion: https://www.notion.so/Leetcode-Solved-Two-pointers-Notes-279d33e062ec806e8daeec4d8cb73115?source=copy_link
-- 📝 AI TL;DR: (Cohere error: headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin', 'x-accel-expires': '0', 'x-debug-trace-id': '0d85fad0ebeae5e2a8f3d94c6f543dc0', 'x-endpoint-monthly-call-limit': '1000', 'x-trial-endpoint-call-limit': '40', 'x-trial-endpoint-call-remaining': '39', 'date': 'Thu, 25 Sep 2025 05:35:17 GMT', 'content-length': '214', 'x-envoy-upstream-service-time': '17', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 404, body: {'id': '04f0e14c-1513-414d-adf6-b9d1a01138a5', 'message': 'Generate API was removed on September 15 2025. Please migrate to Chat API. See https://docs.cohere.com/docs/migrating-from-cogenerate-to-cochat for details.'})
-- 🍪 Snack-take: (—)
+
 <!-- SNAX-END -->
 
 ---
