@@ -20,8 +20,3 @@
 
 <!-- SNAX-END -->
 
----
-## 🛠 How It Works  
-1. Add Notion links to [`notion_links.txt`](./notion_links.txt)  
-2. Commit & push to GitHub  
-3. Action scrapes, and updates this README  
