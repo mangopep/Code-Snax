@@ -10,7 +10,7 @@
 </p>
 
 
-## 📖 Notes Index
+## Notes Index
 
 <!-- SNAX-START -->
 
