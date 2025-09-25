@@ -2,9 +2,37 @@
 
 **Snack-sized coding notes, auto-synced from Notion.**  
 
-![GitHub stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=social)
+![GitHub forks](https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/mangopep/leetcode-unlocked-?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/mangopep/leetcode-unlocked-)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mangopep/leetcode-unlocked-)
+![GitHub last commit](https://img.shields.io/github/last-commit/mangopep/leetcode-unlocked-)
+![Open Issues](https://img.shields.io/github/issues/mangopep/leetcode-unlocked-)
+![Closed Issues](https://img.shields.io/github/issues-closed/mangopep/leetcode-unlocked-)
+![Pull Requests](https://img.shields.io/github/issues-pr/mangopep/leetcode-unlocked-)
+![GitHub Release](https://img.shields.io/github/v/release/mangopep/leetcode-unlocked-?color=success)
+![CI](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
+![License](https://img.shields.io/github/license/mangopep/leetcode-unlocked-)
+![Code Size](https://img.shields.io/github/languages/code-size/mangopep/leetcode-unlocked-)
+![Repo Size](https://img.shields.io/github/repo-size/mangopep/leetcode-unlocked-)
+![Lines of Code](https://tokei.rs/b1/github/mangopep/leetcode-unlocked-?category=code)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-HTML%20parser-green)
+![Cohere API](https://img.shields.io/badge/Cohere-AI-orange)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+![Help Wanted](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Coffee](https://img.shields.io/badge/Made%20with-Coffee-brown.svg)
+![Focus](https://img.shields.io/badge/Focus-100%25-blue)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Ready-orange)
+![LeetCode](https://img.shields.io/badge/LeetCode-Challenges-yellow)
+![Build with AI](https://img.shields.io/badge/🤖-AI%20powered-lightgrey)
+
 
 ---
 
