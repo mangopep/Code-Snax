@@ -7,6 +7,7 @@ on:
       - 'update_readme.py'
       - '.github/workflows/update-readme.yml'
       - 'README.md'
+      - 'requirements.txt'
   schedule:
     - cron: '0 0 * * *'   # daily at 00:00 UTC
   workflow_dispatch:       # manual run
