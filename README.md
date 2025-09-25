@@ -2,40 +2,81 @@
 
 **Snack-sized coding notes, auto-synced from Notion.**  
 
-## 📊 Repo Stats
-![Stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
-![Forks](https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=flat&color=orange)
-![Issues](https://img.shields.io/github/issues/mangopep/leetcode-unlocked-?color=red)
-![Pull Requests](https://img.shields.io/github/issues-pr/mangopep/leetcode-unlocked-?color=purple)
-![Last Commit](https://img.shields.io/github/last-commit/mangopep/leetcode-unlocked-?color=brightgreen)
-
-## ⚙️ Build & Code
-![CI](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
-![Maintenance](https://img.shields.io/maintenance/yes/2025)
-![Repo Size](https://img.shields.io/github/repo-size/mangopep/leetcode-unlocked-)
-![Code Size](https://img.shields.io/github/languages/code-size/mangopep/leetcode-unlocked-)
-![Lines of Code](https://tokei.rs/b1/github/mangopep/leetcode-unlocked-?category=code)
-
-## 🐍 Tech Stack
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-HTML%20parser-green)
-![Cohere API](https://img.shields.io/badge/Cohere-AI-orange)
-
-## 💡 Community
-![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-
-## 🎉 Fun
-![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
-![Coffee](https://img.shields.io/badge/Made%20with-Coffee-brown.svg)
-![Focus](https://img.shields.io/badge/Focus-100%25-blue)
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Ready-orange)
-![LeetCode](https://img.shields.io/badge/LeetCode-Challenges-yellow)
-![AI Powered](https://img.shields.io/badge/🤖-AI%20powered-lightgrey)
-
+<!-- Badge Cards Grid -->
+<table>
+  <tr>
+    <td align="center" width="220">
+      <h3>⭐ Stars</h3>
+      <a href="https://github.com/mangopep/leetcode-unlocked-/stargazers">
+        <img src="https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      </a>
+      <br/>
+      <sub>Show some love</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>🍴 Forks</h3>
+      <a href="https://github.com/mangopep/leetcode-unlocked-/fork">
+        <img src="https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      </a>
+      <br/>
+      <sub>Create your own copy</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>👀 Watch</h3>
+      <a href="https://github.com/mangopep/leetcode-unlocked-/watchers">
+        <img src="https://img.shields.io/github/watchers/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      </a>
+      <br/>
+      <sub>Stay updated</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <h3>🚦 CI</h3>
+      <a href="https://github.com/mangopep/leetcode-unlocked-/actions">
+        <img src="https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=Build&style=for-the-badge&logo=github" />
+      </a>
+      <br/>
+      <sub>Workflow health</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>🧪 Activity</h3>
+      <img src="https://img.shields.io/github/commit-activity/m/mangopep/leetcode-unlocked-?style=for-the-badge" />
+      <br/>
+      <sub>How alive it is</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>🪪 License</h3>
+      <img src="https://img.shields.io/github/license/mangopep/leetcode-unlocked-?style=for-the-badge" />
+      <br/>
+      <sub>MIT</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <h3>🐍 Python</h3>
+      <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <br/>
+      <sub>Runtime</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>🧩 Stack</h3>
+      <img src="https://img.shields.io/badge/BeautifulSoup-HTML%20parser-43A047?style=for-the-badge" />
+      <br/>
+      <img src="https://img.shields.io/badge/Cohere-API-FE7A16?style=for-the-badge" />
+      <br/>
+      <sub>Core libs</sub>
+    </td>
+    <td align="center" width="220">
+      <h3>🤝 Community</h3>
+      <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" />
+      <br/>
+      <img src="https://img.shields.io/badge/Contributions-Open-00C853?style=for-the-badge" />
+      <br/>
+      <sub>Join us</sub>
+    </td>
+  </tr>
+</table>
 
 
 
