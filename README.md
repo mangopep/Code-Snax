@@ -2,78 +2,66 @@
 
 **Snack-sized coding notes, auto-synced from Notion.**  
 
-<!-- Badge Cards Grid -->
+## 📊 Project Dashboard
+
 <table>
   <tr>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>⭐ Stars</h3>
-      <a href="https://github.com/mangopep/leetcode-unlocked-/stargazers">
-        <img src="https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
-      </a>
-      <br/>
-      <sub>Show some love</sub>
+      <img src="https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      <p><sub>Show some love</sub></p>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🍴 Forks</h3>
-      <a href="https://github.com/mangopep/leetcode-unlocked-/fork">
-        <img src="https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
-      </a>
-      <br/>
-      <sub>Create your own copy</sub>
+      <img src="https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      <p><sub>Create your copy</sub></p>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>👀 Watch</h3>
-      <a href="https://github.com/mangopep/leetcode-unlocked-/watchers">
-        <img src="https://img.shields.io/github/watchers/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
-      </a>
-      <br/>
-      <sub>Stay updated</sub>
+      <img src="https://img.shields.io/github/watchers/mangopep/leetcode-unlocked-?style=for-the-badge&logo=github" />
+      <p><sub>Stay updated</sub></p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🚦 CI</h3>
-      <a href="https://github.com/mangopep/leetcode-unlocked-/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=Build&style=for-the-badge&logo=github" />
-      </a>
-      <br/>
-      <sub>Workflow health</sub>
+      <img src="https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=BUILD&style=for-the-badge&logo=github" />
+      <p><sub>Workflow health</sub></p>
     </td>
-    <td align="center" width="220">
-      <h3>🧪 Activity</h3>
-      <img src="https://img.shields.io/github/commit-activity/m/mangopep/leetcode-unlocked-?style=for-the-badge" />
-      <br/>
-      <sub>How alive it is</sub>
+    <td align="center" width="250">
+      <h3>📈 Activity</h3>
+      <img src="https://img.shields.io/github/commit-activity/m/mangopep/leetcode-unlocked-?style=for-the-badge&logo=git" />
+      <p><sub>How alive it is</sub></p>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🪪 License</h3>
       <img src="https://img.shields.io/github/license/mangopep/leetcode-unlocked-?style=for-the-badge" />
-      <br/>
-      <sub>MIT</sub>
+      <p><sub>MIT</sub></p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🐍 Python</h3>
       <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-      <br/>
-      <sub>Runtime</sub>
+      <p><sub>Runtime</sub></p>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🧩 Stack</h3>
-      <img src="https://img.shields.io/badge/BeautifulSoup-HTML%20parser-43A047?style=for-the-badge" />
-      <br/>
+      <img src="https://img.shields.io/badge/BeautifulSoup-HTML%20parser-43A047?style=for-the-badge" /><br/>
       <img src="https://img.shields.io/badge/Cohere-API-FE7A16?style=for-the-badge" />
-      <br/>
-      <sub>Core libs</sub>
+      <p><sub>Core libs</sub></p>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="250">
       <h3>🤝 Community</h3>
-      <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" />
-      <br/>
+      <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" /><br/>
       <img src="https://img.shields.io/badge/Contributions-Open-00C853?style=for-the-badge" />
-      <br/>
-      <sub>Join us</sub>
+      <p><sub>Join us</sub></p>
     </td>
   </tr>
 </table>
