@@ -21,13 +21,6 @@
 <!-- SNAX-END -->
 
 ---
-
-## 🚀 Features  
-- 🔗 Notion integration without API  
-- 🤖 AI summaries in plain English  
-- 📝 Auto-updated README daily + on push  
-- 🎨 Blog-style, minimal design  
-
 ## 🛠 How It Works  
 1. Add Notion links to [`notion_links.txt`](./notion_links.txt)  
 2. Commit & push to GitHub  
