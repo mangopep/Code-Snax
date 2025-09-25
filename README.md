@@ -2,13 +2,40 @@
 
 **Snack-sized coding notes, auto-synced from Notion.**  
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=social" />
-  <img src="https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=social" />
-  <img src="https://img.shields.io/github/watchers/mangopep/leetcode-unlocked-?style=social" />
-  <img src="https://img.shields.io/github/contributors/mangopep/leetcode-unlocked-" />
-  <img src="https://img.shields.io/github/license/mangopep/leetcode-unlocked-" />
-</p>
+## 📊 Repo Stats
+![Stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
+![Forks](https://img.shields.io/github/forks/mangopep/leetcode-unlocked-?style=flat&color=orange)
+![Issues](https://img.shields.io/github/issues/mangopep/leetcode-unlocked-?color=red)
+![Pull Requests](https://img.shields.io/github/issues-pr/mangopep/leetcode-unlocked-?color=purple)
+![Last Commit](https://img.shields.io/github/last-commit/mangopep/leetcode-unlocked-?color=brightgreen)
+
+## ⚙️ Build & Code
+![CI](https://img.shields.io/github/actions/workflow/status/mangopep/leetcode-unlocked-/update-readme.yml?label=CI&logo=github)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
+![Repo Size](https://img.shields.io/github/repo-size/mangopep/leetcode-unlocked-)
+![Code Size](https://img.shields.io/github/languages/code-size/mangopep/leetcode-unlocked-)
+![Lines of Code](https://tokei.rs/b1/github/mangopep/leetcode-unlocked-?category=code)
+
+## 🐍 Tech Stack
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-HTML%20parser-green)
+![Cohere API](https://img.shields.io/badge/Cohere-AI-orange)
+
+## 💡 Community
+![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+
+## 🎉 Fun
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+![Coffee](https://img.shields.io/badge/Made%20with-Coffee-brown.svg)
+![Focus](https://img.shields.io/badge/Focus-100%25-blue)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Ready-orange)
+![LeetCode](https://img.shields.io/badge/LeetCode-Challenges-yellow)
+![AI Powered](https://img.shields.io/badge/🤖-AI%20powered-lightgrey)
+
 
 
 
