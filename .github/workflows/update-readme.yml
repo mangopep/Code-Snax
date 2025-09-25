@@ -7,7 +7,6 @@ on:
       - 'update_readme.py'
       - '.github/workflows/update-readme.yml'
       - 'README.md'
-      - 'requirements.txt'
   schedule:
     - cron: '0 0 * * *'   # daily at 00:00 UTC
   workflow_dispatch:       # manual run
@@ -25,22 +24,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies (with fallback)
+      - name: Install dependencies (manual)
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            echo "✅ Found requirements.txt — installing from file"
-            pip install -r requirements.txt
-          else
-            echo "⚠️ requirements.txt not found — installing manually"
-            pip install requests beautifulsoup4 cohere
-          fi
+          pip install requests beautifulsoup4 cohere
 
       - name: Run updater
         env:
           COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
         run: |
           python update_readme.py
+
+      - name: Show README after update
+        run: |
+          echo "====== README.md ======"
+          cat README.md
 
       - name: Commit changes (if any)
         run: |
