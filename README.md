@@ -1,13 +1,5 @@
 
 # 🍿 Code-Snax
-
-**Snack-sized coding notes, auto-synced from Notion.**
-
----
-
-## 📊 Project Dashboard
-
-# 🍿 Code-Snax
 **Snack-sized coding notes, auto-synced from Notion.**
 
 <p align="center">
