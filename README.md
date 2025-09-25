@@ -13,7 +13,7 @@
 <!-- SNAX-START -->
 | # | Note Link |
 |---|-----------|
-| 1 | [Notion Note 1](https://www.notion.so/Leetcode-Solved-Two-pointers-Notes-279d33e062ec806e8daeec4d8cb73115?source=copy_link) |
+| 1 | [Notion Two Pointer Snackpack](https://www.notion.so/Leetcode-Solved-Two-pointers-Notes-279d33e062ec806e8daeec4d8cb73115?source=copy_link) |
 <!-- SNAX-END -->
 
 ---
