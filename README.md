@@ -1,6 +1,6 @@
 # 🍿 Code-Snax
 
-**Snack-sized coding notes, auto-synced from Notion with AI summaries.**  
+**Snack-sized coding notes, auto-synced from Notion.**  
 Turn long LeetCode write-ups into short, fun, and blog-style cards — powered by [Cohere](https://cohere.com).  
 
 ![GitHub stars](https://img.shields.io/github/stars/mangopep/leetcode-unlocked-?style=flat&color=yellow)
@@ -14,7 +14,7 @@ Turn long LeetCode write-ups into short, fun, and blog-style cards — powered b
 <!-- SNAX-START -->
 | # | Note Link |
 |---|-----------|
-| 1 | [Notion Note 1](https://www.notion.so/Leetcode-Solved-Two-pointers-Notes-279d33e062ec806e8daeec4d8cb73115?source=copy_link) |
+| 1 | [Notion Two Pointers Pack](https://www.notion.so/Leetcode-Solved-Two-pointers-Notes-279d33e062ec806e8daeec4d8cb73115?source=copy_link) |
 <!-- SNAX-END -->
 
 ---
